@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url('https://media1.tenor.com/m/FQCtm9c6npoAAAAd/anime-live.gif');
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+main h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+main #intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+main hr {
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+section#screenshots .screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+section#screenshots img {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+section#cta .button {
+    background:  rgb(153, 153, 252);
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+section#cta .button:hover {
+    background: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
